@@ -148,7 +148,7 @@ footer::before {
 
 /* about us page */
 
-.head-about small, .head-service small { 
+.head-about small, .head-service small, .head-order small { 
     position: relative;
     bottom: 15px;
 
@@ -171,5 +171,15 @@ footer::before {
 .card-img-top {
     /* width: 565px; */
     height: 300px;
+}
 
+
+.head-order small {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.order {
+    width: 35%;
 }

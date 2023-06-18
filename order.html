@@ -78,7 +78,7 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <!-- <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
                 type="search"
@@ -87,7 +87,7 @@
               />
               <button class="btn btn-outline-success" type="submit">
                 Search
-              </button>
+              </button> -->
             </form>
           </div>
         </div>
@@ -96,7 +96,68 @@
 
       <!--  middle-section -->
 
+      <div class="head-order  my-5 text-center">
+        <h1 class="display-1">Place your order</h1>
+        <small class="text-muted fw-bold display-6 card">work with us</small>
+      </div>
      
+      <div class="order d-block mx-auto mb-5 card p-4">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-12">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+
+
+          <div class="col-md-12">
+            <label for="validationCustom03" class="form-label">Country & City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <small class="text-muted text-italic"> eg: Ghana, Accra or Ghana-Accra</small>
+            <div class="invalid-feedback">
+              Please provide a valid country-city.
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="validationCustom04" class="form-label">Service Type</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="1">Choose Service...</option>
+              <option>Mobile App</option>
+              <option>Web App</option>
+              <option>Automated Web Services</option>
+            </select>
+            <div class="invalid-feedback">
+              Service type not selected
+            </div>
+          </div>
+          <div class="col-md-13">
+            <label for="validationCustom05" class="form-label">Mobile Number</label>
+            <input type="number" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide mobile or whatsapp messenger number.
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="validationCustom06" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="validationCustom06" required>
+            <div class="invalid-feedback">
+              Please provide a valid email address.
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
 
      
 
@@ -195,6 +256,9 @@
         <!-- Copyright -->
       </footer>
     </div>
+
+    <!--  my js scrpts-->
+    <script src="order.js"></script>
 
     <!--- cdn bootstrap js -->
     <script
