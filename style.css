@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
+/* nav bar*/
 .span-logo {
     color: #040468;
     font-weight: 500;
@@ -16,6 +16,7 @@
     font-weight: 700;
 }
 
+/* hero section */
 
 .hero-img {
     transition: all 300ms ease-in-out;
@@ -74,6 +75,7 @@
     margin-bottom: 60px;
 }
 
+/* main section */
 
 .middle-section {
     display: flex;
@@ -96,16 +98,6 @@
     height: 300px;
 }
 
-/* .companies-worked-with {
-    background-color: red;
-    height: 10px;
-} */
-
-
-/* .footer-top {
-    background-color: red;
-    height: 10px;
-} */
  .who-we-worked-with {
     background-color: red;
     font-size: 20px;
@@ -153,3 +145,25 @@ footer::before {
     background-color: red;
 }
 
+
+/* about us page */
+
+.head-about small{ 
+    position: relative;
+    bottom: 15px;
+
+}
+
+.img-about {
+    margin-bottom: 100px;
+}
+
+.img-fluid, .about-us-info {
+    width: 90%;
+}
+
+.about-us-info {
+    background-color: #def2f8;
+    border: 0;
+    border-radius: 10px;
+}
