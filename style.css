@@ -158,7 +158,7 @@ footer::before {
     margin-bottom: 100px;
 }
 
-.img-fluid, .about-us-info, .service {
+.img-fluid, .about-us-info, .service, .connect {
     width: 90%;
 }
 
@@ -182,4 +182,8 @@ footer::before {
 
 .order {
     width: 35%;
+}
+
+.connect {
+    border-radius: 10px;
 }
