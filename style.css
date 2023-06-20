@@ -174,6 +174,8 @@ footer::before {
 }
 
 
+/* order page*/
+
 .head-order small {
     width: 50%;
     display: block;
@@ -184,6 +186,148 @@ footer::before {
     width: 35%;
 }
 
+/* contact us page*/
+
 .connect {
     border-radius: 10px;
 }
+
+/* media querries */
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .hero-boot .flex-container {
+        flex-direction: column; 
+        margin: 0 auto;
+        width: 70%;
+        margin-top: -40px;    
+    }
+    .hero-boot .hero-img {
+        display: none;
+    }
+
+    .hero-boot .we-do {
+        background-color: red;
+        font-size: 20px;
+        font-weight: 600;
+        width: 10rem;
+        text-align: center;
+        padding: 3px 0;
+        margin: 0 auto;
+        bottom: -20px;
+        color: #fff;
+        position: relative;
+        border-radius: 10px;
+    
+    }
+    
+    .hero-boot::after {
+        display: block;
+        content: " ";
+        height: 5px;
+        overflow: hidden;
+        width: 50%;
+        background-color: red;
+        margin: 0 auto;
+        border-radius: 7px;
+        margin-bottom: 60px;
+    }
+
+
+    /* main section*/
+
+    .middle-section {
+        display: inline-block;
+        /* width: 90%; */
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .middle-section .card {
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .middle-section .right-middle-section {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .middle-section  .id-card  {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .middle-section .right-middle-section #carouselExampleDark, 
+    .middle-section .right-middle-section .carousel-inner .carousel-item,
+    .middle-section .right-middle-section .carousel-inner .carousel-item img
+    {
+        /* margin-top: -5px; */
+        overflow: hidden;
+        width: 285px;
+        height: 300px;
+    }
+
+    .who-we-worked-with {
+        background-color: red;
+        font-size: 15px;
+        font-weight: 600;
+        width: 17rem;
+        text-align: center;
+        padding: 3px 0;
+        margin: 0 auto;
+        bottom: -95px;
+        color: #fff;
+        position: relative;
+        border-radius: 10px;
+    
+    } 
+    
+    .companies-worked-with::before {
+        display: block;
+        content: " ";
+        height: 5px;
+        overflow: hidden;
+        width: 70%;
+        background-color: red;
+        margin: 80px auto;
+        border-radius: 7px;
+    }
+
+    .companies-worked-with .row  {
+       display: flex;
+       padding: 0 60px;
+       margin-left: -40px;
+       overflow: hidden;
+    }
+    .companies-worked-with .row .col{
+        margin: 5px 0;
+        margin-right: -60px;
+    }
+
+    
+
+    
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+ }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+ /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+ }
