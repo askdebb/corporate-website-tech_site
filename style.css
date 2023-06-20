@@ -260,6 +260,10 @@ footer::before {
         margin: 0 auto;
     }
 
+    .img-fluid {
+        margin: 0 auto;
+    }
+
     .middle-section .right-middle-section #carouselExampleDark, 
     .middle-section .right-middle-section .carousel-inner .carousel-item,
     .middle-section .right-middle-section .carousel-inner .carousel-item img
@@ -361,13 +365,13 @@ footer::before {
     /* main section*/
 
     .middle-section {
-        display: inline-block;
-        /* width: 90%; */
+        display: inline;
+        width: 50%;
         margin: 0 auto;
         flex-direction: column;
     }
 
-    .middle-section .card {
+    .middle-section .card .card-top {
         margin: 0 auto;
         /* width: 50%; */
         margin-bottom: 10px;
@@ -375,34 +379,41 @@ footer::before {
 
     .middle-section .right-middle-section {
         display: inline;
-        /* width: 70%; */
-        /* margin: 0 auto; */
+        width: 70%;
+        margin: 0 auto;
     }
 
-    .middle-section  .id-card  {
-        width: 100%;
-        /* margin: 0 auto; */
+    /* .middle-section  .id-card  {
+        display: block;
+        /* width: 96%; 
+        margin: 0 auto;
     }
+
+    .img-fluid {
+        width: 100%;
+        margin: 0 auto;
+    } */
 
     .middle-section .right-middle-section #carouselExampleDark, 
+    .middle-section  .id-card, 
     .middle-section .right-middle-section .carousel-inner .carousel-item,
     .middle-section .right-middle-section .carousel-inner .carousel-item img
     {
         /* margin-top: -5px; */
         overflow: hidden;
-        width: 285px;
-        height: 300px;
+        width: 287px;
+        height: auto;
     }
 
     .who-we-worked-with {
         background-color: red;
-        font-size: 10px;
+        font-size: 16px;
         font-weight: 600;
-        width: 11rem;
+        width: 18rem;
         text-align: center;
         padding: 3px 0;
         margin: 0 auto;
-        bottom: -93px;
+        bottom: -95px;
         color: #fff;
         position: relative;
         border-radius: 10px;
@@ -421,18 +432,20 @@ footer::before {
     }
 
     .companies-worked-with .row  {
-       display: inline;
-       margin: 0 auto;
-       /* padding: 0 60px;
-       margin-left: -40px;
-       overflow: hidden; */
+        display: block;
+        width: 75%;
+        margin: 10px auto;
+        /* padding: 0 60px; */
+        /* margin-left: -40px; */
+        /* overflow: hidden;*/
     }
-    /*.companies-worked-with .row .col{
+    .companies-worked-with .row .col{
         margin: 5px 0;
         margin-right: -60px;
     }
+   
 
-    .flex_container {
+   /* .flex_container {
         justify-content: space-evenly;
         flex-direction: column;
     }
@@ -441,7 +454,6 @@ footer::before {
         margin-top: 0;
         margin-bottom: 20px;
     } */
-
  }
 
  /* Small devices (landscape phones, less than 768px) */
