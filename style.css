@@ -307,9 +307,141 @@ footer::before {
         margin-right: -60px;
     }
 
-    
+    .flex_container {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
 
+    .flex_container .flex-item {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+ }
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 300px) and (max-width: 565px) { 
+    .hero-boot .flex-container {
+        flex-direction: column; 
+        margin: 0 auto;
+        /* width: 70%; */
+        margin-top: -40px;    
+    }
+    .hero-boot .hero-img {
+        display: none;
+    }
+
+    .hero-boot .we-do {
+        background-color: red;
+        font-size: 20px;
+        font-weight: 600;
+        width: 10rem;
+        text-align: center;
+        padding: 3px 0;
+        margin: 0 auto;
+        bottom: -20px;
+        color: #fff;
+        position: relative;
+        border-radius: 10px;
     
+    }
+    
+    .hero-boot::after {
+        display: block;
+        content: " ";
+        height: 5px;
+        overflow: hidden;
+        width: 70%;
+        background-color: red;
+        margin: 0 auto;
+        border-radius: 7px;
+        margin-bottom: 60px;
+    }
+
+
+    /* main section*/
+
+    .middle-section {
+        display: inline-block;
+        /* width: 90%; */
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .middle-section .card {
+        margin: 0 auto;
+        /* width: 50%; */
+        margin-bottom: 10px;
+    }
+
+    .middle-section .right-middle-section {
+        display: inline;
+        /* width: 70%; */
+        /* margin: 0 auto; */
+    }
+
+    .middle-section  .id-card  {
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+
+    .middle-section .right-middle-section #carouselExampleDark, 
+    .middle-section .right-middle-section .carousel-inner .carousel-item,
+    .middle-section .right-middle-section .carousel-inner .carousel-item img
+    {
+        /* margin-top: -5px; */
+        overflow: hidden;
+        width: 285px;
+        height: 300px;
+    }
+
+    .who-we-worked-with {
+        background-color: red;
+        font-size: 10px;
+        font-weight: 600;
+        width: 11rem;
+        text-align: center;
+        padding: 3px 0;
+        margin: 0 auto;
+        bottom: -93px;
+        color: #fff;
+        position: relative;
+        border-radius: 10px;
+    
+    } 
+    
+    .companies-worked-with::before {
+        display: block;
+        content: " ";
+        height: 5px;
+        overflow: hidden;
+        width: 70%;
+        background-color: red;
+        margin: 80px auto;
+        border-radius: 7px;
+    }
+
+    .companies-worked-with .row  {
+       display: inline;
+       margin: 0 auto;
+       /* padding: 0 60px;
+       margin-left: -40px;
+       overflow: hidden; */
+    }
+    /*.companies-worked-with .row .col{
+        margin: 5px 0;
+        margin-right: -60px;
+    }
+
+    .flex_container {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .flex_container .flex-item {
+        margin-top: 0;
+        margin-bottom: 20px;
+    } */
+
  }
 
  /* Small devices (landscape phones, less than 768px) */
