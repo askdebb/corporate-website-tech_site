@@ -426,7 +426,7 @@ footer::before {
         flex-direction: column;
     }
 
-    .middle-section .card_top {
+    .middle-section .card {
         display: block;
         margin: 0 auto;
         width: 30rem!important;
