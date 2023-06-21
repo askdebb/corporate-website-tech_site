@@ -426,11 +426,18 @@ footer::before {
         flex-direction: column;
     }
 
-    .middle-section .card_top {
+    /* .middle-section  .card {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 10px;
+    } */
+
+     .middle-section .card {
         margin: 0 auto;
         width: 30rem!important;
         margin-bottom: 10px;
-    }
+    } 
 
     .middle-section .right-middle-section {
         /* display: inline; */
