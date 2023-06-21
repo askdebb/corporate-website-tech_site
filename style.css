@@ -426,19 +426,11 @@ footer::before {
         flex-direction: column;
     }
 
-    /* .middle-section  .card {
-        display: block;
-        margin: 0 auto;
-        width: 50%;
-        margin-bottom: 10px;
-    } */
-
-     .middle-section .card {
-        display: block;
+    .middle-section .card_top {
         margin: 0 auto;
         width: 30rem!important;
         margin-bottom: 10px;
-    } 
+    }
 
     .middle-section .right-middle-section {
         /* display: inline; */
@@ -602,7 +594,7 @@ footer::before {
     }
 
     .middle-section .right-middle-section {
-        /* display: block; */
+        display: block;
         width: 30rem!important;
         margin: 0 auto;
     }
@@ -681,7 +673,7 @@ footer::before {
  } 
 
  /*Medium devices (tablets, less than 992px)*/
-@media (min-width: 769px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) { 
 
     .hero-img {
         transition: all 300ms ease-in-out;
