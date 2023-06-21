@@ -565,6 +565,37 @@ footer::before {
         padding-bottom: 20px;
     }
 
+    
+    /* order page*/
+    .head-order {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .head-order .display-1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+   
+    .head-order .display-6 {
+        font-size: 25px;
+    }
+
+    .order {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        /* background-color: #9ea4a7; */
+    }
+    .order form label {
+        font-weight: 500;
+    }
+    .order form button {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
 
  }
   
@@ -697,6 +728,36 @@ footer::before {
 
     .about-us-info .card-body .card-text {
         padding-bottom: 20px;
+    }
+
+     /* order page*/
+     .head-order {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .head-order .display-1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+   
+    .head-order .display-6 {
+        font-size: 25px;
+    }
+
+    .order {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        background-color: #9ea4a7;
+    }
+    .order form label {
+        font-weight: 500;
+    }
+    .order form button {
+        display: block;
+        width: 100%;
+        margin: auto;
     }
 
  
