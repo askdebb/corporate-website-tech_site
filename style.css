@@ -351,13 +351,17 @@ footer::before {
     }
 
     .about-us-info .card-body .card-text {
-        padding-bottom: 20px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 
     .about-us-info .card-body a.btn {
+        position: relative;
         display: block;
         margin-bottom: 10px;
-        width: 100%;       
+        width: 100%;  
+        bottom: 37px; 
+
     }
    
 }
@@ -841,7 +845,7 @@ footer::before {
 
 
   /* X-Large devices (large TV, more than 1450px) */
- @media (min-width: 1450px) {
+ @media (min-width: 1401px) {
         .middle-section .right-middle-section #carouselExampleDark, 
         /* .middle-section  .id-card,  */
         .middle-section .right-middle-section .carousel-inner .carousel-item,
