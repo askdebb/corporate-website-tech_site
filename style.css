@@ -421,20 +421,19 @@ footer::before {
 
     .middle-section {
         display: inline;
-        width: 50%; 
+        width: 90%; 
         margin: 0 auto;
         flex-direction: column;
     }
 
-    .middle-section .card {
-        display: block;
+    .middle-section .card_top {
         margin: 0 auto;
         width: 30rem!important;
         margin-bottom: 10px;
     }
 
     .middle-section .right-middle-section {
-        display: inline;
+        /* display: inline; */
         width: 30rem!important;
         margin: 0 auto;
     }
@@ -541,7 +540,7 @@ footer::before {
   
 
  /* Small devices (landscape phones, less than 768px) */
-@media (min-width: 577px) and (max-width: 767px) { 
+@media (min-width: 577px) and (max-width: 767.98px) { 
 
     .hero-img {
         transition: all 300ms ease-in-out;
