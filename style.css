@@ -434,6 +434,7 @@ footer::before {
     } */
 
      .middle-section .card {
+        display: block;
         margin: 0 auto;
         width: 30rem!important;
         margin-bottom: 10px;
