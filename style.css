@@ -181,10 +181,11 @@ footer::before {
     width: 50%;
     display: block;
     margin: 0 auto;
+    margin-top: 25px;
 }
 
 .order {
-    width: 35%;
+    width: 70%;
 }
 
 /* contact us page*/
@@ -196,7 +197,7 @@ footer::before {
 /* media querries */
 
 
-/* X-Small devices (portrait phones, less than 576px) */
+/* XX-Small devices (portrait phones, less than 576px) */
 @media (min-width: 320px) and (max-width: 564.98px) { 
     .hero-boot .flex-container .hero-text {
         display: block;
@@ -374,7 +375,36 @@ footer::before {
         bottom: 37px; 
 
     }
+
+    /* order page*/
+    .head-order {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .head-order .display-1{
+        font-size: 30px;
+        font-weight: 600;
+    }
    
+    .head-order .display-6 {
+        font-size: 15px;
+    }
+
+    .order {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        background-color: #9ea4a7;
+    }
+    .order form label {
+        font-weight: 500;
+    }
+    .order form button {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
 }
 
  /* X-Small devices (portrait phones, less than 576px) */
